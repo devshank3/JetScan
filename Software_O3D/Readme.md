@@ -38,6 +38,16 @@ In the terminal
 
 >Cmake and install
 
+```
+ download from https://gitlab.com/libeigen/eigen/-/archive/3.3.7/eigen-3.3.7.tar.gz
+
+mkdir build
+cd build
+cmake ..
+make
+sudo make install 
+```
+
 ### open3D for Jetson  
 
 #### Clone the open3D for jetson Github repo
