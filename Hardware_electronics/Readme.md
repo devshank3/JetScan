@@ -1,4 +1,6 @@
-## The Electronics used and its Buy link
+## The Jetscan Components / Assembly guide
+
+![alt text](https://github.com/devshank3/JetScan/blob/master/Hardware_electronics/eg%20(2).PNG)
 
 ### BOM (Bill of Material)
 
