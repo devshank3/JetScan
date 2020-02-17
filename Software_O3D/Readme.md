@@ -16,11 +16,11 @@ Make sure you power up at max mode and operate in max mode [Jetsonhacks tutorial
 
 In the terminal
 
->Sudo apt-get update 
->Sudo apt-get upgrade
+>Sudo apt-get update & upgrade
 
 #### Purge inbuilt Cmake (issue with building) 
 >sudo apt-get purge cmake
+
 #### install Install Cmake 3.14
 
 1. >Download cmake3.14 from 'https://cmake.org/files/v3.14/cmake-3.14.0.tar.Z'
@@ -29,3 +29,16 @@ In the terminal
 4. >sudo ./bootstrap 
 5. >sudo make
 6. >sudo make install
+
+#### uninstall eigen3
+
+>Sudo apt-get uninstall eigen3
+
+#### install eigen3 ver - 3.3.7
+
+>Cmake and install
+
+#### Clone the open3D for jetson Github repo
+
+> git clone https://github.com/devshank3/Open3D-for-Jetson.git
+
