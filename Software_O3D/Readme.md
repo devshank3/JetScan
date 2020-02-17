@@ -42,7 +42,7 @@ In the terminal
 
 #### Clone the open3D for jetson Github repo
 
->git clone https://github.com/devshank3/Open3D-for-Jetson.git
+>$ git clone https://github.com/devshank3/Open3D-for-Jetson.git
 -------------------------------------------------------------
 >cd Open3D_for_Jetson/
 -------------------------------------------------------------
@@ -58,12 +58,21 @@ In the terminal
   
 -------------------------------------------------------------
 
->Build the open3d 
+>Build 
 ```
-mkdir build
-cd build
-cmake -DBUILD_EIGEN3=OFF..
-Sudo make -j4 
+$ mkdir build
+$ cd build
+$ cmake -DBUILD_EIGEN3=OFF..
+$ Sudo make -j4 
 ```
+### Librealsense Install by jetsonhacks
 
+follow this [Jetson hacks tutorials : Librealsense Jetson nano](https://www.youtube.com/watch?v=lL3zxwN5Lnw)
 
+```
+$ git clone https://github.com/JetsonHacksNano/installLibrealsense.git
+
+$ ./installLibrealsense.sh
+
+$ ./buildLibrealsense.sh
+```
