@@ -1,6 +1,6 @@
-##The Electronics used and its Buy link
+## The Electronics used and its Buy link
 
-###BOM (Bill of Material)
+### BOM (Bill of Material)
 
 | S.no   |  Part name | source  |  cost in USD $ |   
 |---|---|---|---|
@@ -13,9 +13,9 @@
 |  7 | Adafruit 5 inch tft lcd  | [BUY](https://www.adafruit.com/product/1680)  |  30 |   
 |  8 | Adafruit hdmi to tft decoder  |  [BUY](https://www.adafruit.com/product/2218) |  25 |   
 |  9 | 	HDMI to HDMI FPV  |[BUY](https://www.amazon.com/Degree-Angled-Multicopter-Aerial-Photography/dp/B01EWSKVDQ/ref=sr_1_2?keywords=hdmi%2Bfpv&qid=1581928898&sr=8-2&th=1)   | 10  |   
-|  10 |  Wireless Keyboard + Mouse Setup |   |   |   
-|   11|  	Battery Pack Li-ion (min 5000 mAh ) |   |   |   
+|  10 |  Wireless Keyboard + Mouse Setup |   
+|   11|  	Battery Pack Li-ion (min 5000 mAh ) | 20  | 
 | 12  |  	5V 4A voltage regulator | [BUY](https://www.pololu.com/product/2851)  | 10  |   
-|  13 |  5V 1A Voltage regulator |  [BUY](https://www.pololu.com/product/2851) |   |   
+|  13 |  5V 1A Voltage regulator |  [BUY](https://www.pololu.com/product/2851) |  10 |   
 |   |   |   |   |   
-|   |   |   |   |   
+| Total  |   |   |   |   
