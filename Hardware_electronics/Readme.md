@@ -14,8 +14,11 @@
 |  8 | Adafruit hdmi to tft decoder  |  [BUY](https://www.adafruit.com/product/2218) |  25 |   
 |  9 | 	HDMI to HDMI FPV  |[BUY](https://www.amazon.com/Degree-Angled-Multicopter-Aerial-Photography/dp/B01EWSKVDQ/ref=sr_1_2?keywords=hdmi%2Bfpv&qid=1581928898&sr=8-2&th=1)   | 10  |   
 |  10 |  Wireless Keyboard + Mouse Setup |   
-|   11|  	Battery Pack Li-ion (min 5000 mAh ) | 20  | 
+|   11|  	Battery Pack Li-ion (min 5000 mAh ) | |20  | 
 | 12  |  	5V 4A voltage regulator | [BUY](https://www.pololu.com/product/2851)  | 10  |   
 |  13 |  5V 1A Voltage regulator |  [BUY](https://www.pololu.com/product/2851) |  10 |   
 |   |   |   |   |   
 | Total  |   |   |   |   
+
+
+<iframe width="725" height="453" src="https://www.tinkercad.com/embed/6tNxzQhj4hM?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
