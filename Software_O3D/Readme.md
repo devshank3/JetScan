@@ -71,8 +71,7 @@ follow this [Jetson hacks tutorials : Librealsense Jetson nano](https://www.yout
 
 ```
 $ git clone https://github.com/JetsonHacksNano/installLibrealsense.git
-
+$ cd installLibrealsense
 $ ./installLibrealsense.sh
-
 $ ./buildLibrealsense.sh
 ```
