@@ -25,5 +25,7 @@
 
 ### Assemble the electronics collected and test it
 
+![alt text](https://github.com/devshank3/JetScan/blob/master/Schematic/Capture.PNG)
+
 ![alt text](https://github.com/devshank3/JetScan/blob/master/Hardware_electronics/IMG_20200217_154929.jpg)
 
