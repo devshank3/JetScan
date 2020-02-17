@@ -1,6 +1,6 @@
-The Electronics used and its Buy link
+##The Electronics used and its Buy link
 
-BOM
+###BOM (Bill of Material)
 
 | S.no   |  Part name | source  |  cost in USD $ |   
 |---|---|---|---|
