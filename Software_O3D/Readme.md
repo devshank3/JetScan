@@ -38,7 +38,31 @@ In the terminal
 
 >Cmake and install
 
+### open3D for Jetson  
+
 #### Clone the open3D for jetson Github repo
 
-> git clone https://github.com/devshank3/Open3D-for-Jetson.git
+>git clone https://github.com/devshank3/Open3D-for-Jetson.git
+-------------------------------------------------------------
+>cd Open3D_for_Jetson/
+-------------------------------------------------------------
+>Install dependencies **util/scripts/install-deps-ubuntu.sh**
+-------------------------------------------------------------
+>Setup python dependencies 
+
+	1. Numpy
+	2. Matplotlib
+	3. Opencv 
+	4. Joblib
+  5. Cython
+  
+-------------------------------------------------------------
+
+>Build the open3d 
+'''
+mkdir build
+cd build
+cmake -DBUILD_EIGEN3=OFF..
+Sudo make -j4 
+ '''
 
