@@ -54,15 +54,16 @@ In the terminal
 	2. Matplotlib
 	3. Opencv 
 	4. Joblib
-  5. Cython
+	5. cython
   
 -------------------------------------------------------------
 
 >Build the open3d 
-'''
+```
 mkdir build
 cd build
 cmake -DBUILD_EIGEN3=OFF..
 Sudo make -j4 
- '''
+```
+
 
