@@ -41,11 +41,11 @@ In the terminal
 ```
  download from https://gitlab.com/libeigen/eigen/-/archive/3.3.7/eigen-3.3.7.tar.gz
 
-mkdir build
-cd build
-cmake ..
-make
-sudo make install 
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+$ sudo make install 
 ```
 
 ### open3D for Jetson  
@@ -56,9 +56,12 @@ sudo make install
 -------------------------------------------------------------
 >cd Open3D_for_Jetson/
 -------------------------------------------------------------
->Install dependencies **util/scripts/install-deps-ubuntu.sh**
+Install dependencies **util/scripts/install-deps-ubuntu.sh**
+
+>./install-deps-ubuntu.sh
 -------------------------------------------------------------
 >Setup python dependencies 
+>pip3 install
 
 	1. Numpy
 	2. Matplotlib
@@ -68,7 +71,7 @@ sudo make install
   
 -------------------------------------------------------------
 
->Build 
+>Build in Open_for-Jetson/
 ```
 $ mkdir build
 $ cd build
