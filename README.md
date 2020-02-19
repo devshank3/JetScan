@@ -33,55 +33,35 @@ Jetscan is an open source 3D scanner based on
 
 
 ----
-## Usage 
+## Software setup
 
-###
-> Install Jetpack from NVIDIA jetson platform 
 
- Follow the below link 
- https://developer.nvidia.com/embedded/jetpack
- Burn  SD card with JETPACK  -- Minimum of 64 GB class 10 
 
-> Uninstall / Purge Cmake Install Cmake 3.14
+For setting up the software stack 
 
-1. Download cmake3.14 from 'https://cmake.org/files/v3.14/cmake-3.14.0.tar.Z'
-2. tar -zxvf cmake-3.14.0.tar.gz
-3. cd cmake-3.14.0
-4. sudo ./bootstrap 
-5. sudo make
-6. sudo make install
+Follow instructions in Sofware_O3D/ 
 
-> Installing Open3D from Source 
 
-git clone --recursive https://github.com/devshank3/Open3D.git
-
+[Software setup](https://github.com/devshank3/JetScan/blob/master/Software_O3D/Readme.md)
 
 
 
 ----
 
-## Hardware used :
+## Hardware Setup :
 
-### Portable jetson nano module 
+Follow instructions in 
 
-* [Jetson Nano](https://developer.nvidia.com/buy-jetson)
+Hardware_electronics/
 
-* [AC8265 Wireless NIC  WiFi / Bluetooth](https://www.waveshare.com/wireless-ac8265.html)
+[Electronics setup](https://github.com/devshank3/JetScan/blob/master/Hardware_electronics/Readme.md)
 
-* [5.0" 40-pin 800x480 TFT Display without Touchscreen](https://www.adafruit.com/product/1680)
+Hardware_casing/
 
-* [TFP401 HDMI/DVI Decoder to 40-Pin TTL Breakout - Without Touch](https://www.adafruit.com/product/2218)
+[case setup](https://github.com/devshank3/JetScan/blob/master/Hardware_casing/Readme.md)
 
-* [HDMI FPV Flat HDMI](https://www.amazon.com/dp/B06XRVC2VV/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B06XRVC2VV&pd_rd_w=byqi5&pf_rd_p=45a72588-80f7-4414-9851-786f6c16d42b&pd_rd_wg=Hzr7I&pf_rd_r=8WHPN6ME290WF1Q7JJD6&pd_rd_r=d0c2b721-1cce-47d2-bba7-dac0a12f7b81&spLa=ZW5jcnlwdGVkUXVhbGl)
-
-* [DC-DC 9V/12V to 5V 4A Mini Buck Module Converter Step-down Module](https://www.banggood.in/DC-DC-9V12V-to-5V-4A-Mini-Buck-Module-Converter-Step-down-Module-p-1343488.html?rmmds=search&cur_warehouse=CN)
-
-### Others 
-
-* [Intel realsense D435i](https://store.intelrealsense.com/buy-intel-realsense-depth-camera-d435i.html?_ga=2.118782729.109480876.1578129593-1156130352.1574240129)
 
 ----
 
-## Software used 
 
 
