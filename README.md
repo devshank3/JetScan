@@ -127,7 +127,11 @@ Open3D-for-Jetson/build/bin/examples/
 
 > $ python3 GUI2.py
 
-Two Graphical user interfaces pops up:
+**Two Graphical user interfaces pop up:**
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/IMG_20200218_065556.jpg" width="340" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/IMG_20200218_064923.jpg" width="340" />
+</p>
 
 * Step 5
 
@@ -217,7 +221,7 @@ Click on **View**
 
 ----
 
-## Contributing
+## Contribute
 
 ----
 ## License
