@@ -14,6 +14,11 @@
 * Standalone 3D scanner 
 * Instant 3D reconstruction 
 * Metrically accurate
+* low power 
+* offline and online (both)
+* cost effective 
+* Modular approach 
+* Deep learning integration (3D deep learning )
 
 
 <p align="center">
