@@ -3,7 +3,11 @@
 A standalone portable 3D scanner with Intel realsense and Jetson Nano. 
  
 
-![N|Solid]( https://github.com/devshank3/JETSCAN/blob/master/jetscan.JPG )
+<p align="center">
+ <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/jetscan.JPG" width="320" />
+</p>
+
+
 
 
 ## Motives 
