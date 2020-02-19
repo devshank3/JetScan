@@ -1,23 +1,25 @@
 # JETSCAN 
 
 A standalone portable 3D scanner with Intel realsense and Jetson Nano. 
+ 
+
+![N|Solid]( https://github.com/devshank3/JETSCAN/blob/master/jetscan.JPG )
+
 
 ## Motives 
 
-..* Standalone 3D scanner 
-..* Instant 3D reconstruction 
-..* Metrically accurate 
-
-![N|Solid]( https://github.com/devshank3/JETSCAN/blob/master/jetscan.JPG )
+* Standalone 3D scanner 
+* Instant 3D reconstruction 
+* Metrically accurate
 
 ----
 
 ## Introduction
 
-Jetscan is a open source 3D scanner based on 
+Jetscan is an open source 3D scanner based on 
 
 1. [Jetson nano by NVIDIA](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
-2. [Intel Realsense D435i depth camera](https://www.intelrealsense.com/depth-camera-d435i/)
+2. [Intel Realsense D400 series depth camera](https://www.intelrealsense.com/depth-camera-d435i/)
 3. [Open3D ](http://www.open3d.org/) by INTEL ISL
 
 ----
