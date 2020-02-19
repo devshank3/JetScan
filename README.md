@@ -16,7 +16,10 @@
 * Instant 3D reconstruction 
 * Metrically accurate
 
-![N|Solid]( https://github.com/devshank3/JETSCAN/blob/master/Jetscan.jpeg )
+
+<p align="center">
+ <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Jetscan.jpeg" width="320" />
+</p>
 
 ----
 
