@@ -60,7 +60,17 @@ Follow instructions in Sofware_O3D/
 
 [Software setup](https://github.com/devshank3/JetScan/blob/master/Software_O3D/Readme.md)
 
+Complete software repo is here 
 
+
+https://github.com/devshank3/Open3D-for-Jetson
+
+
+
+its built on [theNded's](https://github.com/theNded) 
+
+
+https://github.com/theNded/Open3D
 
 ----
 
