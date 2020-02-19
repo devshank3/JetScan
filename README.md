@@ -4,7 +4,7 @@
  
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/jetscan.JPG" width="320" />
+ <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/jetscan.JPG" width="480" />
 </p>
 
 
@@ -22,6 +22,10 @@
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/34.jpg" width="320" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/j1.jpg" width="320" />
+</p>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/78.png" width="400" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/12.png" width="400" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/23.png" width="400" />
 </p>
 
 
@@ -45,7 +49,7 @@ Jetscan is an open source 3D scanner based on
 
 
 ----
-## Software setup
+## Software Setup
 
 
 
