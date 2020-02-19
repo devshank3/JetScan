@@ -1,8 +1,12 @@
-# JETSCAN
-## Jetson nano based 3D scanner 
+# JETSCAN 
 
-A standalone AI 3D scanner with Intel realsense and Jetson Nano. 
-Making it highly portable, 20 times cheaper and giving out HD 3D objects.
+A standalone portable 3D scanner with Intel realsense and Jetson Nano. 
+
+## Motives 
+
+..* Standalone 3D scanner 
+..* Instant 3D reconstruction 
+..* Metrically accurate 
 
 ![N|Solid]( https://github.com/devshank3/JETSCAN/blob/master/jetscan.JPG )
 
