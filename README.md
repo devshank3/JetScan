@@ -1,6 +1,6 @@
-# JETSCAN 
+#                                                    JETSCAN 
 
-A standalone portable 3D scanner with Intel realsense and Jetson Nano. 
+                        A standalone portable 3D scanner with Intel realsense and Jetson Nano. 
  
 
 <p align="center">
