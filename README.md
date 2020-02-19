@@ -12,6 +12,8 @@ A standalone portable 3D scanner with Intel realsense and Jetson Nano.
 * Instant 3D reconstruction 
 * Metrically accurate
 
+![N|Solid]( https://github.com/devshank3/JETSCAN/blob/master/Jetscan.jpeg )
+
 ----
 
 ## Introduction
