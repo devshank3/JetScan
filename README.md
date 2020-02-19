@@ -21,6 +21,16 @@
  <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Jetscan.jpeg" width="320" />
 </p>
 
+
+<p align="left">
+ <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/34.jpg" width="320" />
+</p>
+
+
+<p align="right">
+ <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/j1.jpg" width="320" />
+</p>
+
 ----
 
 ## Introduction
