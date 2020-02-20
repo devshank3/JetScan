@@ -52,7 +52,7 @@ $ sudo make install
 
 #### Clone the open3D for jetson Github repo
 
->$ git clone https://github.com/devshank3/Open3D-for-Jetson.git
+>$ git clone --recursive https://github.com/devshank3/Open3D-for-Jetson.git
 -------------------------------------------------------------
 >cd Open3D_for_Jetson/
 -------------------------------------------------------------
