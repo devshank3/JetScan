@@ -44,6 +44,7 @@ Jetscan is an open source 3D scanner based on
 1. [Jetson nano by NVIDIA](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)
 2. [Intel Realsense D400 series depth camera](https://www.intelrealsense.com/depth-camera-d435i/)
 3. [Open3D ](http://www.open3d.org/) by INTEL ISL
+4. [theNded's CUDA implementation](https://github.com/theNded/Open3D)
 
 ----
 
@@ -72,7 +73,7 @@ https://github.com/devshank3/Open3D-for-Jetson
 
 
 
-its built on [theNded's](https://github.com/theNded) 
+its built on [theNded's](https://github.com/theNded) CUDA implementation 
 
 
 https://github.com/theNded/Open3D
