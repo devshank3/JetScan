@@ -143,7 +143,7 @@ click on **Recorder**
 recording of **RGB** and it alligned **Depth** starts 
 you can see the no of frames being captured in the terminal 
 
-**Insruction while capturing **
+**Instruction while capturing **
 
 * For Small environment captiure less than 1000 frames
 * For detailed capture make sure less blackish area in the capture frame 
