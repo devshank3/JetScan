@@ -1,11 +1,10 @@
 #                                                    JETSCAN 
 
-                              A standalone portable 3D reconstruction system with Intel realsense and Jetson Nano
+                    A standalone portable 3D reconstruction system with Intel realsense and Jetson Nano
  
 <p align="center">
  <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/jetscan.JPG" width="480" />
 </p>
-
 
 ***
 ## Motives 
@@ -44,7 +43,9 @@
 
 ## Schematic sketch
 
-![schema]( https://github.com/devshank3/JetScan/blob/master/Schematic/Capture.PNG )
+<p align="center">
+<img src="https://github.com/devshank3/JetScan/blob/master/Schematic/Capture.PNG" width="380" />
+</p>
 
 ----
 ## Software Setup
