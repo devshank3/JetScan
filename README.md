@@ -22,12 +22,12 @@
 
 **Hardware built:**
 <p align="center">
- <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Jetscan.jpeg" width="320" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/34.jpg" width="320" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/j1.jpg" width="320" />
+ <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Jetscan.jpeg" width="260" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/34.jpg" width="260" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/j1.jpg" width="260" />
 </p>
 
 **Reconstructed results:**
 <p align="center">
-<img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/78.png" width="350" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/12.png" width="350" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/23.png" width="350" />
+<img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/78.png" width="260" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/12.png" width="260" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/23.png" width="260" />
 </p>
 
 ----
