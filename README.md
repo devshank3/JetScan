@@ -1,6 +1,6 @@
 #                                                    JETSCAN 
 
-                    A standalone portable 3D reconstruction system with Intel realsense and Jetson Nano
+          A standalone portable 3D reconstruction system with Intel realsense and Jetson Nano
  
 <p align="center">
  <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/jetscan.JPG" width="480" />
@@ -109,15 +109,14 @@ Follow **https://github.com/devshank3/JetScan/blob/master/Software_O3D/Readme.md
 
 
 ----
-## Development
+## Development & Contribute
 
-----
-
-## Contribute
+   if interested pls contact me @ devshank3@gmail.com
 
 ----
 ## License
 
+This project is licensed under the MIT License
 ----
 
 
