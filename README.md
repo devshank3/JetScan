@@ -110,12 +110,12 @@ Follow **https://github.com/devshank3/JetScan/blob/master/Software_O3D/README.md
 ***
 ## Development & Contribute
 
-   if interested pls contact me @ devshank3@gmail.com
+   If interested pls contact me @ devshank3@gmail.com
 
 ***
 ## License
 
-under the MIT License (MIT)
+Under the MIT License (MIT)
 
 Copyright (c) 2020 Shankar Hariharan (aka devshank3) 
 ***
