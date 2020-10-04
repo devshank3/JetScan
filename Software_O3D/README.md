@@ -101,7 +101,7 @@ $ git clone https://github.com/mdegans/nano_build_opencv.git
 $ cd nano_build_opencv
 $ ./build_opencv.sh
 
-update the global lib path in your venv
+#update the global lib path in your venv
 
 $ ln -s /usr/local/lib/python3.6/dist-packages/cv2/python-3.6/cv2.cpython-36m-aarch64-linux-gnu.so cv2.so
 ```
@@ -150,7 +150,7 @@ line 11 NVCC_PATH=/usr/local/cuda-10.0/bin/nvcc  to  NVCC_PATH=/usr/local/cuda-1
 ```
 $ ./buildLibrealsense.sh
 
-update the global lib path in your venv
+#update the global lib path in your venv
 
 $ ln -s /usr/lib/python3/dist-packages/pyrealsense2/python-3.6/pyrealsense2.cpython-36m-aarch64-linux-gnu.so pyrealsense2.so
 ```

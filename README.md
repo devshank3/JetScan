@@ -29,7 +29,7 @@
 <img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/78.png" width="260" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/12.png" width="260" /><img src="https://raw.githubusercontent.com/devshank3/JETSCAN/master/Scanned_result/23.png" width="260" />
 </p>
 
-----
+***
 ## Introduction
 
 **Jetscan is a portable 3D dense reconstruction system based on**
@@ -39,39 +39,38 @@
 3. [Open3D ](http://www.open3d.org/) by INTEL ISL
 4. [theNded's CUDA implementation](https://github.com/theNded/Open3D)
 
-----
-
+***
 ## Schematic sketch
 
 <p align="center">
 <img src="https://github.com/devshank3/JetScan/blob/master/Schematic/Capture.PNG" width="540" />
 </p>
 
-----
+***
 ## Software Setup
 
 * For setting up the software stack, follow instructions in 
   
-  Sofware_O3D - [Software setup](https://github.com/devshank3/JetScan/blob/master/Software_O3D/Readme.md)
+  Sofware_O3D - [Software setup](https://github.com/devshank3/JetScan/blob/master/Software_O3D/README.md)
 
 * Complete software repo is [here](https://github.com/devshank3/Open3D-for-Jetson) (forked from Open3D) 
 
     https://github.com/devshank3/Open3D-for-Jetson
 
     its built on [theNded's](https://github.com/theNded) CUDA implementation 
-----
+***
 
 ## Hardware Setup
 
 Follow instructions in 
 
-1. Hardware_electronics - [Electronics setup](https://github.com/devshank3/JetScan/blob/master/Hardware_electronics/Readme.md)
+1. Hardware_electronics - [Electronics setup](https://github.com/devshank3/JetScan/blob/master/Hardware_electronics/README.md)
 
-2. Hardware_casing - [Case/Closure setup](https://github.com/devshank3/JetScan/blob/master/Hardware_casing/Readme.md)
+2. Hardware_casing - [Case/Closure setup](https://github.com/devshank3/JetScan/blob/master/Hardware_casing/README.md)
 
-----
+***
 
-Follow **https://github.com/devshank3/JetScan/blob/master/Software_O3D/Readme.md** for Software Setup
+Follow **https://github.com/devshank3/JetScan/blob/master/Software_O3D/README.md** for Software Setup
 
 ## Usage 
 
@@ -108,15 +107,15 @@ Follow **https://github.com/devshank3/JetScan/blob/master/Software_O3D/Readme.md
      View the latest reconstructed 3D Model
 
 
-----
+***
 ## Development & Contribute
 
    if interested pls contact me @ devshank3@gmail.com
 
-----
+***
 ## License
 
-This project is licensed under the MIT License
-----
+Copyright (c) 2020 JetScan MIT License
+***
 
 
