@@ -44,7 +44,7 @@
 ## Schematic sketch
 
 <p align="center">
-<img src="https://github.com/devshank3/JetScan/blob/master/Schematic/Capture.PNG" width="440" />
+<img src="https://github.com/devshank3/JetScan/blob/master/Schematic/Capture.PNG" width="540" />
 </p>
 
 ----

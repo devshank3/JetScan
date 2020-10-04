@@ -1,90 +1,173 @@
-# Software stack setup : JetScan
+# Software stack setup (Open3D-for-Jetson) : JetScan
 
-### Jetson Nano setup 
+## **Jetson Nano setup**
 
-Collect the Jetson nano and a min 64 gb Class 10 sd Card and other pheripherals for initial setup
+1. Collect Jetson nano and a > 64 gb Class 10 sd Card and other pheripherals for initial setup
 
-Follow the official Nvidia jetpack install steps from the link below:
+2. Follow the official Nvidia jetpack install steps from the link below:
 
-https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro
+   https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#intro
 
-and setup credentials in the dev kit follow the [Jetsonhacks tutorials : Getting started ](https://www.youtube.com/watch?v=km0yT99eVTY)
+3. Setup the dev kit by following [Jetsonhacks tutorials : Getting started ](https://www.youtube.com/watch?v=km0yT99eVTY)
 
-Make sure you power up at max mode and operate in max mode [Jetsonhacks tutorials : use more power](https://www.youtube.com/watch?v=jq1OqBe267A)
+4. Make sure you power up at max mode and operate in max mode [Jetsonhacks tutorials : use more power](https://www.youtube.com/watch?v=jq1OqBe267A)
 
-### Pre - setups ( dependency correction)
+5. Update & Upgrade
 
-In the terminal
+	```
+	$ sudo apt-get update & upgrade
+	$ sudo apt-get install python3-pip
+	$ sudo apt-get install python-pip
+	```
 
->Sudo apt-get update & upgrade
+6. Cuda path setup/check
 
-#### Purge inbuilt Cmake (issue with building) 
->sudo apt-get purge cmake
+	```
+	$ sudo ln -s /usr/local/cuda-10.2 /usr/local/cuda
+	$ export CPATH=/usr/local/cuda-10.2/targets/aarch64-linux/include:$CPATH
+	$ export LD_LIBRARY_PATH=/usr/local/cuda-10.2/targets/aarch64-linux/lib:$LD_LIBRARY_PATH
+	$ export PATH=/usr/local/cuda-10.2/bin:$PATH
+	```
+### **Use More Memory**
 
-#### install Install Cmake 3.14
+  * Jetson nano offers 4 GB of RAM, out of which 1.1 GB is always occupied
+  * By following the below process and installing a LXDE desktop env only 450 MB is occupied out of 4 GB
 
-1. >Download cmake3.14 from 'https://cmake.org/files/v3.14/cmake-3.14.0.tar.Z'
-2. >tar -zxvf cmake-3.14.0.tar.gz
-3. >cd cmake-3.14.0
-4. >sudo ./bootstrap 
-5. >sudo make
-6. >sudo make install
+    https://www.zaferarican.com/post/how-to-save-1gb-memory-on-jetson-nano-by-installing-lubuntu-desktop
 
-#### uninstall eigen3
+  * Allocate swap memory by following the below link
 
->Sudo apt-get uninstall eigen3
+    https://www.jetsonhacks.com/2019/04/14/jetson-nano-use-more-memory/
 
-#### install eigen3 ver - 3.3.7
+***
+## **Pre - setup ( dependency corrections Cmake & EIGEN3 )**
 
->Cmake and install
+
+#### 1. Purge inbuilt Cmake and install latest
 
 ```
- download from https://gitlab.com/libeigen/eigen/-/archive/3.3.7/eigen-3.3.7.tar.gz
+$ cmake --version
+$ sudo apt remove --purge cmake
+$ wget https://gitlab.kitware.com/cmake/cmake/-/archive/v3.18.2/cmake-v3.18.2.tar.bz2
+$ tar xvf cmake-v3.18.2.tar.bz2
+$ sudo apt install libssl-dev libcurl4-openssl-dev qt4-qmake
+$ sudo apt autoremove
+$ cd cmake-v3.18.2/
+$ ./bootstrap --system-curl
+$ make -j3
+$ sudo make install
+$ which cmake
+$ cmake --version
+```
 
+#### 2. Purge inbuilt eigen3 and install latest
+
+```
+$ wget https://gitlab.com/libeigen/eigen/-/archive/3.3.7/eigen-3.3.7.tar.bz2
+$ tar xvf eigen-3.3.7.tar.bz2
+$ sudo apt remove --purge libeigen3-dev
+$ sudo apt autoremove
+$ cd eigen-3.3.7/
+$ mkdir build && cd build
+$ cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local
+$ sudo make install
+```
+**Eigen3 edit/patch for supressing warning**
+```
+$ sudo nano /usr/local/include/eigen3/Eigen/Core
+```
+**in line 257 change**
+
+```
+#include <host_defines.h>    to    #include <cuda_runtime_api.h>
+```
+***
+## **Main Software stack setup**
+
+**Recomended to install python packages compiled below in new Virtual Env**
+
+```
+$ pip3 install --upgrade pip
+$ pip3 install wheel
+$ pip3 install numpy
+$ pip3 install matplotlib
+$ pip3 install cython
+$ pip3 install joblib
+```
+
+## **Install OpenCV with CUDA ON (python package)**
+```
+$ git clone https://github.com/mdegans/nano_build_opencv.git
+$ cd nano_build_opencv
+$ ./build_opencv.sh
+
+update the global lib path in your venv
+
+$ ln -s /usr/local/lib/python3.6/dist-packages/cv2/python-3.6/cv2.cpython-36m-aarch64-linux-gnu.so cv2.so
+```
+
+## **Open3D Original (CPU Only) (python package)**
+
+ * Download the .whl pacakge from [this link](https://drive.google.com/file/d/1FhxkHadRMDqJsMjr4aRMilOgPXIEdh0H/view?usp=sharing)
+
+ ```
+ pip3 install open3d-0.10.1.0-cp36-cp36m-linux_aarch64.whl
+ ``` 
+
+## **Open3D-for-Jetson Build (CUDA Reconstruction pipeline)**
+
+```
+$ git clone --recursive https://github.com/devshank3/Open3D-for-Jetson.git
+$ cd Open3D_for_Jetson/
+$ cd util/scripts/
+$ ./install-deps-ubuntu.sh
+$ cd ..
 $ mkdir build
 $ cd build
 $ cmake ..
-$ make
-$ sudo make install 
+$ make -j3
 ```
+## **Librealsense Install by Jetsonhacks (python package)**
 
-### open3D for Jetson  
-
-#### Clone the open3D for jetson Github repo
-
->$ git clone --recursive https://github.com/devshank3/Open3D-for-Jetson.git
--------------------------------------------------------------
->cd Open3D_for_Jetson/
--------------------------------------------------------------
-Install dependencies **util/scripts/install-deps-ubuntu.sh**
-
->./install-deps-ubuntu.sh
--------------------------------------------------------------
->Setup python dependencies 
->pip3 install
-
-	1. Numpy
-	2. Matplotlib
-	3. Opencv 
-	4. Joblib
-	5. cython
-  
--------------------------------------------------------------
-
->Build in Open_for-Jetson/
-```
-$ mkdir build
-$ cd build
-$ cmake -DBUILD_EIGEN3=OFF..
-$ Sudo make -j4 
-```
-### Librealsense Install by jetsonhacks
-
-follow this [Jetson hacks tutorials : Librealsense Jetson nano](https://www.youtube.com/watch?v=lL3zxwN5Lnw)
+**Follow this [Jetson hacks tutorials : Librealsense Jetson nano](https://www.youtube.com/watch?v=lL3zxwN5Lnw)**
 
 ```
 $ git clone https://github.com/JetsonHacksNano/installLibrealsense.git
 $ cd installLibrealsense
-$ ./installLibrealsense.sh
-$ ./buildLibrealsense.sh
 ```
+**edit buildLibrealsense.sh with**
+
+```
+$ nano  buildLibrealsense.sh
+```
+```
+line 6  # Jetson Nano; L4T 32.2.3   to    # Jetson Nano; L4T 32.4.3
+line 9  LIBREALSENSE_VERSION=v2.31.0   to   LIBREALSENSE_VERSION=v2.38.1
+line 11 NVCC_PATH=/usr/local/cuda-10.0/bin/nvcc  to  NVCC_PATH=/usr/local/cuda-10.2/bin/nvcc
+```
+
+**Finally build the Librealsense**
+```
+$ ./buildLibrealsense.sh
+
+update the global lib path in your venv
+
+$ ln -s /usr/lib/python3/dist-packages/pyrealsense2/python-3.6/pyrealsense2.cpython-36m-aarch64-linux-gnu.so pyrealsense2.so
+```
+
+***
+## **Check in virtual env created**
+
+```
+$ python3
+$ import Open3D
+$ import cv2
+$ import pyrealsense2
+```
+***
+### Credits:
+
+Few clean dependencies & installation steps are inspired by [Nanotuxi](https://github.com/nanotuxi/jetsonNanoPatches):
+https://github.com/nanotuxi/jetsonNanoPatches 
+
+***
