@@ -115,7 +115,9 @@ Follow **https://github.com/devshank3/JetScan/blob/master/Software_O3D/README.md
 ***
 ## License
 
-Copyright (c) 2020 JetScan MIT License
+under the MIT License (MIT)
+
+Copyright (c) 2020 Shankar Hariharan (aka devshank3) 
 ***
 
 
