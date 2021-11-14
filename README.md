@@ -1,4 +1,6 @@
 #                                                    JETSCAN 
+### (Currently not maintained)
+Please refer to Official enhanced GPU tensor reconstruction system [Link for O3D docs](http://www.open3d.org/docs/latest/tutorial/t_reconstruction_system/index.html)
 
           A standalone portable 3D reconstruction system with Intel realsense and Jetson Nano
  
